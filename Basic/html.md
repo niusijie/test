@@ -56,3 +56,17 @@ getLocation()：地图定位
 
 
 
+## 7、UTF-8
+
+是针对Unicode的可变长度字符编码，又称为万国码
+
+GBK是汉字编码，是双字节码，可表示繁体字和简体字
+
+
+
+8、有序列表ol，无序列表ul
+
+9、相对定位（position:relative）不脱离文档流
+
+10、radio以name属性划分组
+
