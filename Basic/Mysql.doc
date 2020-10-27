@@ -1,6 +1,5 @@
-## 1、Mysql：是一种关系型数据库
-
-## 2、Sql分类
+1、Mysql：是一种关系型数据库
+2、Sql分类
 
 DDL数据定义语言:create,drop,alter   (对库、表级)
 
@@ -8,7 +7,7 @@ DML数据操控语言：update,inster,delete （对表级）
 
 DCL:数据控制语言：grant,if
 
-## 3、数据库的增删改查
+3、数据库的增删改查
 
 增：create database 数据库名
 
@@ -20,9 +19,9 @@ DCL:数据控制语言：grant,if
 
 　　查看某个数据库：show create database 数据库名；
 
-## 4、数据表的增删改查
+4、数据表的增删改查
 
-### 增
+增
 
 create table 表名{
 
@@ -56,13 +55,13 @@ boolean --> bit
 
 
 
-### 删
+删
 
 - 删表: drop table 表名
 
   
 
-### 改
+改
 
 - **修改表添加列：**
 
@@ -102,7 +101,7 @@ boolean --> bit
 
 
 
-### 查
+查
 
 查看表结构： desc 表名
 
@@ -110,9 +109,9 @@ show tables;
 
 
 
-## 5、数据表内容的增删改查
+5、数据表内容的增删改查
 
-### 增 
+增 
 
 *** insert into** **表名 (****列名,****列名,...) values (****值1,****值2,...);   ---****插入指定列的值**
 
@@ -120,7 +119,7 @@ show tables;
 
 
 
-### 删
+删
 
 删表内容：
 
@@ -135,7 +134,7 @@ show tables;
 
 
 
-### 改
+改
 
  **update** **表 set** **列名=****值,****列名=****值 [where** **条件];**
 
@@ -149,13 +148,11 @@ show tables;
 
 
 
-### 查
+查
 
 select * from 表名 where  id = 1 group by name order by age 
 
 
-
- ![image-20200918175946749](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200918175946749.png)
 
 \* **交叉连接**：
 
@@ -184,4 +181,3 @@ SELECT * FROM customer c,orders o WHERE c.cid = o.cid AND c.cid IN (SELECT cid F
 
 
 很赞的文章！！：https://www.cnblogs.com/xinlixue/p/6792523.html
-
