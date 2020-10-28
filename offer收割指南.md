@@ -52,5 +52,9 @@
 
 ## 五、资料存储
 
+存储地：https://github.com/niusijie/test.git
 
+提交方式:  git add .u
+
+​				  git commit -m’原因’
 
